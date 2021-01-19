@@ -1,0 +1,33 @@
+﻿csol,a
+"You’ve come back to find your 3D printer not printing anymore. This along with coming back to find a ‘birdsnest’ are the two most cliche versions of failed 3D prints. For some reason or another, your 3D printer stops extruding mid print:
+
+Filament has stripped or is blocked in the extruder. See [Clogged Nozzle]
+Filament is kinked, snapped or ran out. The filament has twisted or you got a knot on the reel. See our article How to untangle a tangled spool
+Filament diameter isn’t consistent. Especially very cheap filaments suffer from fluctuations in filament diameter. Too thin and there isn’t enough filament fed into the HotEnd, to thick and there might be too much friction to push it in through the extruder and the related filament path.
+You’re trying to print a part with too aggressive retraction 3D printing settings or excessive amount of retractions in a short period of time. Check your 3D printer retraction settings and lower total amount of retractions occurring and/or reduce retraction distance. Sometimes loosening the feeder gear idler pressure onto the filament can help.
+Overheated stepper drivers. A lot of tinkerers like to increase the Vref of their stepper drivers, often needlessly. This could lead to overheated steppers. Also, when printing high temperature filaments in an enclosed or heated build chamber steppers tend to get considerably hotter.
+Nozzle clogged mid print. This again can have a lot of different causes. See [Clogged Nozzle]
+If it happens very early in the print, it might be too much back pressure because the nozzle is too close to the bed. See [Nozzle too close].
+In general: Try printing hotter or slower. But do not exceed the maximum print temperature of the filament, as it might start to deteriorate in your nozzle and clog. Very common error is to boil rigid ink PLA by exceeding the maximum print temperature.
+Check for warping. Warped areas are closer to the nozzle increasing back pressure. See [Warping]
+Monitor nozzle temperature while printing, check for high drops in print temperature.
+Keep your nozzle clean, especially after switching between different filament types.
+When using particle filled filaments, consider using a bigger nozzle.
+Flexible filament got stuck. Flexible filaments are difficult to print with most extruders out there, as they tend to escape the intended filament path and simply get stuck. Try printing way slower, try printing hotter (within the recommended range) and maybe even consider upgrading to a different extruder design specialised in printing flexible filaments.
+Also see [Filament not feeding properly].",How to untangle a tangled or knotted spool:https://rigid.ink/blogs/news/how-to-untangle-a-tangled-or-knotted-filament-spool
+"You may be able to see the issue and untangle the knot or remove a layer or two if there is a kink. If you cannot see the issue but your spool will not unspool easily, or it is repeatedly happening, please see our article [How to untangle a tangled or knotted spool].",How to untangle a tangled or knotted spool:https://rigid.ink/blogs/news/how-to-untangle-a-tangled-or-knotted-filament-spool
+"Prevent any accumulation in your nozzle by doing pre-emptive maintenance (regularly cleaning).
+Use a filament filter. This is a small tool that is used (often clipped on) before the filament feeds through the extruder to filter away anything that may be sitting on the filament (dust/dirt). They can be printed and files are available on websites like thingiverse.
+Make sure never to exceed the recommended HotEnd temperature for whatever filament you’re trying to use. Cooked filament blocks nozzles. This includes staying around 10 °C below the glass transition temperature (rigid.ink GT temp available on downloadable datasheets in the settings tab on product pages).
+Use particle filled filaments in nozzle with at least 0.5mm diameter or greater.
+We recommend FLOSS, a high-performance cleaning filament, to make preventive maintenance easy. Extrude a bit of rigid.ink Floss on a regular basis, such as between material changes and the risk of clogs should be lessened drastically. Especially when switching from a high temp material to a low temp one, or when cleaning up after particle filled filaments.","FLOSS, a high-performance cleaning filament:https://rigid.ink/products/floss-superior-cleaning-filament"
+"You can try to dislodge the block in your nozzle with an acupuncture needle, hypodermic needle or an uncoated high-e guitar string. Once you got the clog dislodged, try cleaning filament (see FLOSS, a high-performance cleaning filament).
+A highly effective yet brutal (if done improperly) way to clean a blockage are so call cold pulls or the “atomic method”. We’ve got an article on nozzle cleaning methods here.
+Another equally brutal and somewhat dangerous way is to torch your nozzle with a blowtorch (after removing it from the printer first!). The idea is to heat and melt the blockage within the nozzle. This is NOT a method rigid.ink advise for safety reasons.
+With ABS you could try to soak it in an acetone bath overnight. The acetone should dissolve the blockage but will only work with materials acetone soluble have been used (rigid.ink ABS, ASA, PMMA, HIPS and Polycarbonate).
+You can do the same for PLA with a bath of ethyl acetate.","FLOSS, a high-performance cleaning filament:https://rigid.ink/products/floss-superior-cleaning-filament"
+"You can try to dislodge the block in your nozzle with an acupuncture needle, hypodermic needle or an uncoated high-e guitar string. Once you got the clog dislodged, try cleaning filament (see FLOSS, a high-performance cleaning filament).
+A highly effective yet brutal (if done improperly) way to clean a blockage are so call cold pulls or the “atomic method”. We’ve got an article on nozzle cleaning methods here.
+Another equally brutal and somewhat dangerous way is to torch your nozzle with a blowtorch (after removing it from the printer first!). The idea is to heat and melt the blockage within the nozzle. This is NOT a method rigid.ink advise for safety reasons.
+With ABS you could try to soak it in an acetone bath overnight. The acetone should dissolve the blockage but will only work with materials acetone soluble have been used (rigid.ink ABS, ASA, PMMA, HIPS and Polycarbonate).
+You can do the same for PLA with a bath of ethyl acetate.",article on nozzle cleaning methods: https://rigid.ink/blogs/news/clogged-extruder-nozzle-what-causes-it-how-to-avoid-it-and-how-to-fix-it

@@ -1,0 +1,56 @@
+﻿condition,description
+Nozzle too close to the bed,"If your nozzle is too close to the bed, there is not enough space between the nozzle and the bed to extrude the proper amount of filament. Excess filament is either squished upwards between individual printed lines or isn’t extruded at all creating additional pressure in the HotEnd.
+Excess filament that gets squished to the sides and upwards might get torn off the bed on the next pass by the nozzle destroying adhesion and making the top of your first layer very rough to the touch.
+Excess filament might also get picked up by the nozzle and might drip back on your print later. This is especially common for PETG.
+If filament backs up in the HotEnd because it cannot get extruded due to the nozzle being too close to the bed, your extruder might even get jammed and start clicking.
+Squishing your first layer too much into the bed can lead to prints that are almost impossible to remove from the build plate when done."
+Nozzle too far away from the print bed,If your nozzle is too far from the bed there is not enough filament extruded to properly fill the space between nozzle and bed. The line currently extruding is barely making contact with the bed. Individual lines making up the first layer are not connected to their neighbours and they’re not touching the outlines of your objects wall. All this usually this leads to poor adhesion problems like warping or detaching of your object mid print.
+Print Not Sticking,"In this instance it's likely your print has popped off the bed after slight warping, due to insufficient adhesion.
+
+This can happen on the first layer (less likely) or several layers into the print.
+
+If your print has warped, but remained adhered to the bed, see [Warping]."
+Platform not level,"When your platform isn’t properly levelled, i.e. the nozzle to bed distance varies in different locations across the bed, your nozzle might be too close in some areas and too far away in others."
+Platform is warped,"As with platform not level (above), a warped build plate will cause issues with the nozzle to bed distance. Uneven or warped build platforms is the most common mechanical problem we've seen in today's 3D printers and it can be observed in all price classes and all bed surfaces. Neither a milled aluminium plate, FR-4 board, or even a glass sheet is guaranteed to be 100% even."
+Clean your bed,"A dirty print surface will make your adhesion suffer. Any debris from previous prints needs to be removed before starting a new print. If your nozzle rumbles over leftover remnants of your previous prints it will start bouncing and it might introduce vibration in your printer depending on how stiff your bed carrier may be.
+
+Often overlooked is the detrimental effect of oily or greasy residue on your print surface, like for example a mere fingerprint."
+First layer too fast,"The speed you’re printing your first layer at has direct influence over how well the molten filament bonds to the bed surface. Print slower to increase adhesion. Or faster to decrease adhesion. Since we’re talking about prints not sticking to the bed, we want to increase adhesion, therefore print slower."
+Check extrusion settings to ensure proper amount of plastic is extruded,"When levelling your bed, you’re also setting a nozzle to bed distance. This distance (unless compensated by the printer) needs to match your first layer height and the amount of plastic that is actually extruded while printing your first layer. If your printer is not extruding enough plastic to fill the distance between nozzle and bed (3D printer under extrusion), you will end up with adhesion problems. Too much, or over-extrusion and you have excess filament that needs to go somewhere."
+Print temperature for first layer,"Many 3D printing first layer problems are caused from the incorrect printing temperature during the first layer as it directly affects adhesion to the build plate. Printing colder will decrease adhesion. Printing hotter (to a point) will increase adhesion. Stay within the manufacturers suggested range, at least around 10°C below the glass transition temperature."
+Bed temperature first layer,"Bed temperature (if your printer is equipped with a heated bed) has a lot of influence on how well your first layer will stick to the bed. A colder bed usually decreases adhesion, a hotter bed will increase adhesion. But do not set your bed temperature too high. A common problem we’re seeing from our customers is setting the bed temperature way too high for the material they’re printing with. You need to stay around 10°C below the glass transition temperature (Tg) of the filament you’re trying to print. rigid.ink Tg are available in the data sheet downloads, in the settings tab on the product pages."
+Part cooling fan settings,"Enabled part cooling fans harden the printed line before proper bonding has occurred. This causes poor adhesion and warping might occur.
+
+You want to allow the currently extruding line of filament to bond with the bed surface. This applies to all our filaments and is especially important to check with PLA."
+Use build plate adhesion helpers,"Adhesion helpers can be as simple as using a brim or a raft. Or if you’re using an M3D wave bonding will also assist. Or you can experiment with different surfaces or coatings for your print bed like for example:
+Permanent surfaces:
+
+PEI
+PrintBite/FR-4/Garolite
+BuildTak/FakeTak
+Phenolic sheet/FR-2
+Naked glass
+Temporary coatings:
+
+Glue stick
+ABS Juice (Slurry)
+PVA Wood glue
+Vinyl-based hairspray/3DLac
+Sugar/Saltwater
+Magigoo
+Kapton Tape
+Painters Tape/Blue Tape"
+Bed Temperature,A hotter bed temperature means increased adhesion.
+Bed adhesion,"Some materials are known for adhering extremely well to the bed, check manufacturer information for details."
+Release agent,Adding an additional film between your bed and the print will ensure that the print will detach taking away the coating with it instead of tearing up the bed surface.
+Extrusion multiplier,The extrusion multiplier will affect the pressure on the material flow onto the bed which will alter the adhesion of the print. Less pressure on the material flow on the bed will lower the adhesion of the print.
+Freezing,"Freezing the print and the print bed hardens everything which makes it easier to remove. Prevention is the best tool though, so we do suggest this as a last option or if it is too late and your print is already stuck."
+Design considerations,"FFF 3D prints squish layers down, making them slightly wider than the 3D model. So be aware holes will be smaller and external surfaces will be slightly larger on the printed object than the CAD model."
+First layer,Squishing your first layer into the bed will have a small impact on accuracy along the Z-axis.
+Extrusion multiplier,"Over or under-extrusion as well as an improper extrusion multiplier can cause slight dimensional inaccuracies. Get your extrusion dialed in properly. These inaccuracies are usually rather constant, i.e. independent from the size of the printed object."
+Steps / mm settings,"An increasing dimensional error (increasing with the size of the print) is usually a sign of improper steps/mm settings for your X,Y or Z axes. This can be calibrated and corrected in firmware or the printers menu."
+Printer frame,"Check the rigidity and proper alignment of your printer frame. If your frame is not true, your prints won’t be either.
+
+A common trend today seems to be, throw more and more sensor and computing power at trying to fix poor frame geometry. No amount of software beats a well setup printer. Make sure your frame is aligned well."
+Steam coming out of your nozzle,"If the filament is wet enough, you will see steam coming from your nozzle. While usually harmless, the print quality will suffer greatly from this."
+Smoke coming out of your nozzle,"On brand new printers/HotEnds, you might even see some actual smoke coming from the nozzle. Let’s face reality, when buying cheap Chinese HotEnds there is usually grease and or other traces of lubricants, cutting-fluids/coolants, solvents and what not still inside the HotEnd if the manufacturer didn’t pay close attention to cleaning the parts."

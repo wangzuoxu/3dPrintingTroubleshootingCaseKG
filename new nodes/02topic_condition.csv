@@ -1,0 +1,60 @@
+﻿Topic,Condition
+First Layer Issues,Nozzle too close to the bed
+First Layer Issues,Nozzle too far away from the print bed
+First Layer Issues,Print Not Sticking
+Print Not Sticking To The Bed,Platform not level
+Print Not Sticking To The Bed,Platform is warped
+Print Not Sticking To The Bed,Clean your bed
+Print Not Sticking To The Bed,Nozzle too far away from the print bed
+Print Not Sticking To The Bed,Nozzle too close to the bed
+Print Not Sticking To The Bed,First layer too fast
+Print Not Sticking To The Bed,Check extrusion settings to ensure proper amount of plastic is extruded
+Print Not Sticking To The Bed,Print temperature for first layer
+Print Not Sticking To The Bed,Bed temperature first layer
+Print Not Sticking To The Bed,Part cooling fan settings
+Print Not Sticking To The Bed,Use build plate adhesion helpers
+Prints Sticking Too Much ,Nozzle too close to the bed
+Prints Sticking Too Much ,Bed Temperature
+Prints Sticking Too Much ,Bed adhesion
+Prints Sticking Too Much ,Release agent
+Prints Sticking Too Much ,Extrusion multiplier
+Prints Sticking Too Much ,Freezing
+Inconsistent Extrusion: How To Fix Under Extrusion,Under extrusion in general
+Inconsistent Extrusion: How To Fix Under Extrusion,3D printer not extruding mid-print
+Inconsistent Extrusion: How To Fix Under Extrusion,Under extrusion at the beginning of a print
+Inconsistent Extrusion: How To Fix Under Extrusion,Under extrusion after retraction
+Filament Not Feeding Properly,Extruder motor is clicking
+Filament Not Feeding Properly,Bowden tube issues
+Filament Not Feeding Properly,If the extruder isn’t clicking
+Filament Not Feeding Properly,Motor is wildly turning back and forth even with no filament loaded
+Other Filament Issues,Inconsistent diameter
+Other Filament Issues,Filament slipping
+Other Filament Issues,Moisture absorbtion
+Other Filament Issues,Stale filament
+Other Filament Issues,Brittle filament
+Steam/Smoke Coming Out Of Your Nozzle,Steam coming out of your nozzle
+Steam/Smoke Coming Out Of Your Nozzle,Smoke coming out of your nozzle
+Clogged Nozzle,Prevent a clogged extruder
+Clogged Nozzle,Unblock a clogged nozzle
+Gaps & Holes,In the top layer / pillowing
+Gaps & Holes,Holes and gaps in floor corners
+Gaps & Holes,Between infill and outlines
+Gaps & Holes,Gaps between thin walls
+Dimensional Accuracy Of Your Prints,Design considerations
+Dimensional Accuracy Of Your Prints,First layer
+Dimensional Accuracy Of Your Prints,Extrusion multiplier
+Dimensional Accuracy Of Your Prints,Steps / mm settings
+Dimensional Accuracy Of Your Prints,Printer frame
+Popping Noises Coming From Your Nozzle,Dry filament
+Popping Noises Coming From Your Nozzle,Retraction settings
+Extruder Is Grinding Filament,Deformed filament or filament diameter too thick
+Extruder Is Grinding Filament,"Filament not unspooling from the spool, kinked, knotted or twisted on the spool"
+Extruder Is Grinding Filament,Too much friction in filament path (especially common with worn or dirty Bowden tubes)
+Extruder Is Grinding Filament,Trying to extrude too much material for the nozzle size
+Extruder Is Grinding Filament,Partial (or full) clog in the nozzle or HotEnd
+Extruder Is Grinding Filament,The nozzle being too close to the bed (bed levelling is off) or too close to the previously printed layer (warping)
+Extruder Is Grinding Filament,Trying to print too cold
+Extruder Is Grinding Filament,Trying to print too fast
+Extruder Is Crushing Filament,Idler Tension
+Extruder Is Crushing Filament,Too many retractions
+Clicking Motors,Extruder motor is clicking

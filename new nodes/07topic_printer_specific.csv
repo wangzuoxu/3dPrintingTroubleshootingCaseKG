@@ -1,0 +1,16 @@
+﻿topic,printer_specific_tips
+First Layer Issues,"Prusa MK2/MK2S: The Prusa’s PINDA sensor is temperature sensitive and will give false readings if the probe is heated before the mesh bed levelling. Raise your probe a good distance off the bed during the preheat before mesh levelling at the beginning of a print.
+Creality CR10/Tevo Tornado: Both printers come with a fairly large bed. And they’re not necessarily the flattest. Try leveling the bed not at the outermost corners but rather a bit further in.
+Wanhao i3: keep your hands well away from the bed while feeling the paper dragging during the levelling process. The stock bed frame is rather flimsy and looking at it sternly screws up the results. Repeat levelling procedure at least 3-4 times or more to make sure it stays level. Try levelling at full printing temp, use Preheat in the menu.
+Tevo Tarantula: green stock SN04 sensor is unreliable. Level manually and keep your hands well away from the bed while feeling the paper dragging during the levelling process. The stock bed frame is rather flimsy and looking at it sternly screws up the results. Repeat levelling procedure at least 3-4 times or more to make sure it stays level. Try levelling at full printing temp, use Preheat in the menu.
+Ultimaker 2/2+: The bed carrier flexes a lot when turning the levelling screws, especially the ones in the front. Keep hands clear. Don’t bother with the bed level assistant, just run through it and do the rest manually."
+Warping,"The CR-10(S) suffers quite badly from 'bowling' - This is where the centre of the glass plate is unsupported to either the metal backplate is bowed downwards or the glass itself is not completely flat. Other versions are doming, twisting, and patches.
+
+You can fix bowling and twisting by adding 'shims' to support the low areas. We use the white version of masking/draughtsman tape for this as it is thinner (and we think it looks neater than the blue).
+
+Doming that is caused by a backplate that is warped upwards in the centre can also be fixed this way by adding tape as necessary around the edges and corners.
+
+Doming caused by warped glass might be fixed simply by inverting the glass plate and using the bowled fixing method.
+
+It is much harder if the glass plate is actually thicker in the middle as you will be unlikely to be able to completely remove the problem. Just find the flattest side, put this on top, and adjust as best you can."
+Layers Shifting & Misaligned Layers,Prusa MK2 - If you’re using a Prusa MK2(S) disable silent mode to avoid 3D printing errors like these.

@@ -1,0 +1,5 @@
+﻿codsign,T
+"The obvious sign that you are printing too fast is when the extruder can’t keep up with pushing filament through at this speed and you see [Under Extrusion]. This is true for the 1st layer as well, but you’ll have to be way off for it to show. Determining the proper first layer speed is more “subtle”, the result is simply poor bed adhesion and there is no tell-tale sign that says: “adhesion failed because it was printed too fast”. Look at your slicer settings instead.",Inconsistent Extrusion: How To Fix Under Extrusion
+"There are lots of different issues that can lead to adhesion problems and the end result always looks the same: prints not sticking / warping. Compare your slicer settings with the recommendations from the filament manufacturer. One indication that your bed temperature might be too high is the [Elephant foot] or curling close to the bed, where the defect gets less pronounced the further away from the bed you get.",Elephants Foot
+,
+,

@@ -1,0 +1,30 @@
+﻿condition,sign
+Nozzle too close to the bed,"Printed line is way thinner than desired. It might get so thin it turns transparent.
+Excess filament is squished upwards at the edges of the current printing line creating a rough surface and wavy patterns. (You can feel the roughness when touching it carefully even during the print).
+Filament is getting torn off the bed when the next neighbouring line is printed.
+Finished prints are hard to remove from the print bed."
+Nozzle too far away from the print bed,"When looking at the bottom of your printed object, you can clearly make out individual lines with a noticeable gap between each line.
+During printing the first layer, the individual lines are not touching each other.
+There’s small gaps where the lines of the infill are not touching the outlines of the wall.
+The shape of the extruding line is very round. With the proper distance, extruded line is slightly squished, pancake shaped.
+Individual printed lines are barely sticking to the build plate.
+Parts are warping off the build plate or become loose during the prints."
+Print Not Sticking,"Your print is lifting off the bed, such as warping, or returning to your printer with a birds nest (as per image in 'Print Not Sticking To The Bed' section below)."
+Platform not level,"You will be experiencing either [Nozzle too close] or [Nozzle too far] (or both) at the same time along the X or Y axis. Or in other words: if the left side of your nozzle is too close and the right side it is fine or even too high up, your bed is most likely at an angle – not level with the nozzle. Same goes for front and back and of course this can happen in both axis at the same time."
+Platform is warped,"While printing the first layer, a warped bed will show effects of [Nozzle too close] or [Nozzle too far].
+
+One way to easily tell if your bed is warped would be to use a steel ruler or a straight edge, put it onto your bed and look at the gap between the edge and the bed. You might be surprised. Another way to find out: if you levelled the bed for all 4 corners, but the midpoint or some random points on the bed are off, then your bed is warped (or the axis bent)."
+Clean your bed,"The bed isn’t spotless clean, if you see debris from a previous print, dust, gunk, spots, etc.
+You see lumps, build-up or an uneven coat of your favourite bed adhesive.
+Look at the bottom of a finished print: do you see some dents in an otherwise smooth bottom surface that shouldn’t be there? If so, chances are high something was or is still sticking to the bed there that caused the dent (or the nozzle was too close in that spot). When printing the first layer over a fingerprint on a glass plate for example, you can usually see the print bubble up in that spot"
+First layer too fast,"The obvious sign that you are printing too fast is when the extruder can’t keep up with pushing filament through at this speed and you see [Under Extrusion]. This is true for the 1st layer as well, but you’ll have to be way off for it to show. Determining the proper first layer speed is more “subtle”, the result is simply poor bed adhesion and there is no tell-tale sign that says: “adhesion failed because it was printed too fast”. Look at your slicer settings instead."
+Check extrusion settings to ensure proper amount of plastic is extruded,"In general: signs that you’re not extruding the proper amount of plastic are either under- or over-extrusion, infill leaving gaps, walls turn out too thin and layers not thick enough (not squished). However, for the first layer, there is usually no clear indication, as the result looks the same when your nozzle to bed distance is wrong. (So your best bet is to eliminate extrusion issues by doing a proper extruder calibration before leveling your bed & setting the nozzle to bed distance)."
+Print temperature for first layer,"There are lots of different issues that can lead to adhesion problems and the end result always looks the same: prints not sticking / warping. Unless you’re way off there is no telltale sign when dealing with adhesion issues that clearly says: your temperature was off. It either sticks or it doesn’t stick & warps. Later on in a print, problems like rough corners, curling or sloppy overhangs – or printing a temperature tower – will give better indications if your temperature might be off in general."
+Bed temperature first layer,"There are lots of different issues that can lead to adhesion problems and the end result always looks the same: prints not sticking / warping. Compare your slicer settings with the recommendations from the filament manufacturer. One indication that your bed temperature might be too high is the [Elephant foot] or curling close to the bed, where the defect gets less pronounced the further away from the bed you get."
+Part cooling fan settings,If your part cooling fan is spinning while printing the very first layer you need to look at your fan settings.
+Use build plate adhesion helpers,"If you have checked all of the above and your print is still not sticking, you may want to consider using a build plate adhesion helper."
+Bed Temperature,You're printing at the higher bed temperature range and experiencing your prints sticking too much.
+Bed adhesion,You're printing a 'sticky' filament such as flexible materials or PETG.
+Release agent,"You're not using anything on your bed and your prints are extremely difficult to remove. On occasion, it may even cause damage to your bed."
+Extrusion multiplier,"Your prints are sticking too much and are hard to remove. You already tried [nozzle too close] or can’t adjust your nozzle to bed distance. Yet you’re still seeing too much material being extruded while printing the first layer (overstuffed layer, filament is getting squished upwards at the edges of the printed line)."
+Freezing,"If you have tried to alter settings and added a release agent without success, freezing could be the way to go."

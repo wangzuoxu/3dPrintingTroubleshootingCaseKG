@@ -1,0 +1,16 @@
+﻿tsol,T
+"See [Print not sticking to the bed].
+Balance the printing and room/chamber temperature. Print a little cooler depending on the initial printing temperature. If you're starting at the lowest point in the suggested temperature range, you might want to increase the room temperature instead. The difference between printing temp and room temp shouldn't be too great or you'll experiencing warping.
+To print cooler - start at your current nozzle temperature and work your nozzle temperature down in 5°C increments.
+To increase chamber or ambient (room) air temperature - increase the room or chamber temperature in 5°C increments to reduce the difference in temperature and therefor the tendency to warp. See below for more information on heated enclosures.
+Print thinner layers. For example starting at a typical 0.2mm layer height, try 0.15mm or even 0.1mm layer height. This will reduce stress on your part during printing.
+Make sure you’re not setting your bed temperature close to the glass transition temperature of your filament (stay 10°C below). You can locate rigid.ink glass transition temperature in the downloadable datasheet for your material on the product page settings tab.
+If you need more info on warping, causes and fixes, you can view our article on preventing warping here.",Print Not Sticking To The Bed
+"Often, blockages occur right after the drive gear, especially when using flexible filaments. This can be common for some printers, so be sure to read up on if your printer is suitable to print flexible filaments. Modifications can also be printed for some extruders, files are available on websites like thingiverse.
+Bowden tubes like to gather debris, increasing friction, causing blockages. Inspect, clean and replace as needed.
+Another notorious spot is where the Bowden tube in Bowden extruders (or the PTFE liner tube in certain HotEnds) meets up with the metal bits. If the tip of the tube is frayed, dented, carbonised or cut at anything but a 90° angle, this is inviting trouble. Also make sure your tube is seated firmly as far in as possible. If the tube moves, for example during retractions, chances for a blockage increase.
+Right around the heat break. Usually a sign of insufficient HotEnd cooling or too high of a retraction distance.Also read our chapter [Filament not feeding properly]",Filament Not Feeding Properly
+"Calibrate steps and multiplier
+Whenever you encounter any sort of extrusion issues, make sure your basics are covered - properly calibrated extruder steps/mm and extrusion multiplier, both are key to nice prints. Over-extrusion encourages 3D print stringing. See [Over Extrusion].",Inconsistent Extrusion: How To fix Over Extrusion
+"Are you sure it is popping from the nozzle and not clicking from the extruder motor? If it is clicking, see [Filament not extruding properly]. If it is indeed a popping nozzle, here are some pointers:",Inconsistent Extrusion: How To Fix Under Extrusion
+"Are you sure it is popping from the nozzle and not clicking from the extruder motor? If it is clicking, see [Filament not extruding properly]. If it is indeed a popping nozzle, here are some pointers:",Inconsistent Extrusion: How To fix Over Extrusion

@@ -1,0 +1,13 @@
+﻿tdes,topic
+"This problem is related to [Extruder is grinding filament] and is usually a precursor of that. This happens a lot when:
+
+The feeder gear idler pressure is way too high, deforming the filament while it passes through the feeder.
+The same part of filament is getting retracted, pushed forward, retracted multiple times. Printing something with a lot of retractions in short order will wreak havoc on the filament, especially if the feeder idler pressure is squeezing the filament a bit too tight.",Extruder Is Grinding Filament
+"Most likely the layer isn’t missing, but due to a mechanical issue with your Z-axis, there was an uneven step when moving up to the next layer. Can easily be mistaken for [Under Extrusion] or [Cracking or Layer Separation].",Inconsistent Extrusion: How To Fix Under Extrusion
+"Most likely the layer isn’t missing, but due to a mechanical issue with your Z-axis, there was an uneven step when moving up to the next layer. Can easily be mistaken for [Under Extrusion] or [Cracking or Layer Separation].",Cracking or Layer Separation
+"There’s a limit how far you can push your extruder to do retractions. If, after maxing out your retraction settings as described in the [Stringing and 3D printer oozing] chapter, you’re still seeing signs of insufficient retractions there are some other things to consider, see ‘How to fix:’ below.",Stringing and Oozing
+"Besides trying to print way too fast (incl. too high acceleration and jerk settings), the root cause of these 3D printing errors are often of mechanical nature.",Inconsistent Extrusion: How To Fix Under Extrusion
+"Besides trying to print way too fast (incl. too high acceleration and jerk settings), the root cause of these 3D printing errors are often of mechanical nature.",Inconsistent Extrusion: How To fix Over Extrusion
+"Oval circles instead of round ones are usually due to a mechanical problem. On tiny circles only a few mm in diameter, blobs usually along the Z-scar, might cause the circle to look oval instead.
+
+Occasionally it can be down to having differing steps/mm values entered for the X and Y axes. This can happen (rarely) by EEPROM value corruption, but usually comes down to a user-induced fault.",Blobs and 3D Printing Zits

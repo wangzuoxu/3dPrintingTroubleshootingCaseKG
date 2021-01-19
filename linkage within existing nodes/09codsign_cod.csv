@@ -1,0 +1,9 @@
+﻿codsign,c
+"You will be experiencing either [Nozzle too close] or [Nozzle too far] (or both) at the same time along the X or Y axis. Or in other words: if the left side of your nozzle is too close and the right side it is fine or even too high up, your bed is most likely at an angle – not level with the nozzle. Same goes for front and back and of course this can happen in both axis at the same time.",Nozzle too close to the bed
+"You will be experiencing either [Nozzle too close] or [Nozzle too far] (or both) at the same time along the X or Y axis. Or in other words: if the left side of your nozzle is too close and the right side it is fine or even too high up, your bed is most likely at an angle – not level with the nozzle. Same goes for front and back and of course this can happen in both axis at the same time.",Nozzle too far away from the print bed
+"While printing the first layer, a warped bed will show effects of [Nozzle too close] or [Nozzle too far].
+
+One way to easily tell if your bed is warped would be to use a steel ruler or a straight edge, put it onto your bed and look at the gap between the edge and the bed. You might be surprised. Another way to find out: if you levelled the bed for all 4 corners, but the midpoint or some random points on the bed are off, then your bed is warped (or the axis bent).",Nozzle too close to the bed
+"While printing the first layer, a warped bed will show effects of [Nozzle too close] or [Nozzle too far].
+
+One way to easily tell if your bed is warped would be to use a steel ruler or a straight edge, put it onto your bed and look at the gap between the edge and the bed. You might be surprised. Another way to find out: if you levelled the bed for all 4 corners, but the midpoint or some random points on the bed are off, then your bed is warped (or the axis bent).",Nozzle too far away from the print bed

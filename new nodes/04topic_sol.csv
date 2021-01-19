@@ -1,0 +1,214 @@
+﻿topic,solution
+Warping,"See [Print not sticking to the bed].
+Balance the printing and room/chamber temperature. Print a little cooler depending on the initial printing temperature. If you're starting at the lowest point in the suggested temperature range, you might want to increase the room temperature instead. The difference between printing temp and room temp shouldn't be too great or you'll experiencing warping.
+To print cooler - start at your current nozzle temperature and work your nozzle temperature down in 5°C increments.
+To increase chamber or ambient (room) air temperature - increase the room or chamber temperature in 5°C increments to reduce the difference in temperature and therefor the tendency to warp. See below for more information on heated enclosures.
+Print thinner layers. For example starting at a typical 0.2mm layer height, try 0.15mm or even 0.1mm layer height. This will reduce stress on your part during printing.
+Make sure you’re not setting your bed temperature close to the glass transition temperature of your filament (stay 10°C below). You can locate rigid.ink glass transition temperature in the downloadable datasheet for your material on the product page settings tab.
+If you need more info on warping, causes and fixes, you can view our article on preventing warping here."
+Inconsistent Extrusion: How To fix Over Extrusion,"Recalibrate the steps/mm value of your extruder to ensure your extruder delivers the proper amount of filament requested. Once the steps per mm are set correctly, the next step to a proper calibration is to set your extrusion multiplier (also called feed rate) properly to combat over extrusion 3D printing.
+
+Both steps/mm as well as extrusion multipliers are filament dependent and might even change over time. Or it could simply be a matter of you changing the extrusion multiplier for a recent print and forgot to reset it in your slicer.
+
+Temperature can play a factor in 3D printing over extrusion, so as always ensure you’re printing at the cooler end of the spectrum for your material."
+Other Blockages,"Often, blockages occur right after the drive gear, especially when using flexible filaments. This can be common for some printers, so be sure to read up on if your printer is suitable to print flexible filaments. Modifications can also be printed for some extruders, files are available on websites like thingiverse.
+Bowden tubes like to gather debris, increasing friction, causing blockages. Inspect, clean and replace as needed.
+Another notorious spot is where the Bowden tube in Bowden extruders (or the PTFE liner tube in certain HotEnds) meets up with the metal bits. If the tip of the tube is frayed, dented, carbonised or cut at anything but a 90° angle, this is inviting trouble. Also make sure your tube is seated firmly as far in as possible. If the tube moves, for example during retractions, chances for a blockage increase.
+Right around the heat break. Usually a sign of insufficient HotEnd cooling or too high of a retraction distance.Also read our chapter [Filament not feeding properly]"
+Stringing and Oozing,"Increase retraction distance
+Increase the retraction distance in your slicer. There’s usually a limit for how far up you can retract filament before you’re running into other issues, but as a general rule of thumb: up to 3mm is ok for most direct extruders, 4-6mm should be ok for long Bowden systems."
+Stringing and Oozing,"Increase retraction speed
+Increase the retraction speed. Maximum speed depends entirely on your extruder, so it is hard to come up with a valid recommendation, when in doubt try up to 40mm/s. Check with your printer manufacturer."
+Stringing and Oozing,"Arrange prints closer
+Long travel distances around the build plate tend to make your 3D print stringy, so if you can rearrange the objects to be closer on the bed, this could help against stringing 3D printing. This may not be an option for single item prints"
+Stringing and Oozing,"Increase travel speed
+Try increasing your travel speed in your slicer. Travel speed is the speed the speed the nozzle moved around the print bed. More speed means less time to ooze between layer points."
+Stringing and Oozing,"Calibrate steps and multiplier
+Whenever you encounter any sort of extrusion issues, make sure your basics are covered - properly calibrated extruder steps/mm and extrusion multiplier, both are key to nice prints. Over-extrusion encourages 3D print stringing. See [Over Extrusion]."
+Stringing and Oozing,"Increase cooling
+Increase cooling fans. Try increase in 20% increments, or try 100% when bridging or excessive stringing occurs.
+
+In some instances 100% fans may not be enough. Some users fit additional cooling fans or even just put a desktop fan next to your printer to increase airflow."
+Stringing and Oozing,"Print single objects
+If printing multiple parts at once, try printing single objects instead of placing multiple objects on the build plate. This eliminates all travel moves between multiple objects and will cut down on 3D printing stringing & oozing between multiple prints."
+Overheating,"Increase the part cooling fans. If you’re not using 100% part cooling fans you can try increasing up to 100% which should help. This may not be suitable for all filaments though so be sure to check the manufacturers recommendations.
+Try printing colder to begin with. Sometimes you can get away with a cooler printing temperature for the rest of the print with the same result. Alternatively, reduce the temperature when the printer is approaching the problem area.
+Print slower, giving the print more time to cool down. Consider the 15 second rule: the time for the nozzle coming back to the same point on your object should not be less than 15s.
+If your slicer supports it, set a minimum time per layer to ensure proper cooling. This usually results in the slicer dynamically slowing down the print speed to ensure the minimum layer time, which, in this particular case, won’t help all that much.
+Pro tip: you could add a pause to the layer change script and park the nozzle away from the object for a few seconds.
+Workaround: try printing two copies of the object at the same time, the travel moves between the 2 objects will increase the layer time and allow for more cooling."
+Elephants Foot,"Lower the bed temperature. Make sure you’re within the heated bed temperature range advertised by the manufacturer. The highest point in the range should never exceed 10°C below the glass transition temperature (rigid.ink Tg are available in the downloadable datasheets in the settings tab on product pages).
+Increase the nozzle to bed distance slightly. If you’re already at the lower end of the heated bed temperature range, you can try increasing the nozzle to bed distance slightly."
+Walls Caving In,"Lower the bed temperature. Make sure you’re within the heated bed temperature range advertised by the manufacturer. The highest point in the range should never exceed 10°C below the glass transition temperature (rigid.ink Tg are available in the downloadable datasheets in the settings tab on product pages).
+Set your printing temperature lower. The cooler you can print, the quicker the printed filament will cool, preventing layer crushing and caving.
+You can also try increasing the cooling fan speed if not already at 100%. Do check with the manufacturer this is suitable for the material you’re using."
+Curling and Rough Corners,"Try printing cooler. Sometimes you can get away with a cooler printing temperature for the rest of the print with the same result. We always suggest printing at the lower end of the temperature range suggested by the manufacturer.
+Print slower to give the printed line more time to cool before the next layer is put down.
+You can also try increasing the cooling fan speed if not already at 100%. Do check with the manufacturer this is suitable for the material you’re using.
+When printing in an enclosure: open all doors/panels to lower ambient temperature. This may not be suitable for all materials, check with the manufacturer/seller.
+Workaround: Try a different layer height. In the classic benchy case, printing the benchy at a 0.2mm layer height usually makes the problem disappear while it is really apparent when printing the benchy with 0.1mm layers. In other cases, a lower layer height works better. Experimenting may be needed for your particular print so make one small change at a time and test.
+Pro tip: Increase overall cooling capabilities by adding more external fans next to the printer or optimizing fan duct design."
+Cracking or Layer Separation,"Lower layer height
+You could be trying to print using a layer height that is too high for your nozzle. Maximum layer height should not exceed 75% of your nozzle size (i.e. 0.3mm for a 0.4mm nozzle)."
+Cracking or Layer Separation,"Increase temperature
+If you’re printing higher temperature materials (around 230°C or above), you may be printing too cold for that material. Increase your printing temperature in 5°C increment tests until the issue is resolved."
+Cracking or Layer Separation,"Reduce cooling
+Slow down or turn off your part cooling fan speed. Avoid sudden large increases in fan speed like when going into bridging mode. We want to avoid drastic temperature changes."
+Cracking or Layer Separation,"Use an enclosure
+Protect your print from drafts of cold air. If you’re not using a printer that is enclosed, build your own enclosure around it."
+Cracking or Layer Separation,"Round the edges
+If after these changes, you’re still getting 3D print problems with layers separating it may be worth reducing the stress on the corners of the print by rounding the model, reducing the stress on the edges. You’ll notice sharp corners (like in the image above) will crack first as the stress here is greater."
+Cracking or Layer Separation,"Change filament
+Some filaments simply have less layer adhesion than others. If you’ve tried all the tips above you may need to seek better quality filament that has solid 3D printing layer adhesion.
+
+rigid.ink Filament is guaranteed against this. If you're still experiencing this issue with rigid.ink, get in touch and we'll resolve or exchange it for you."
+Layers Shifting & Misaligned Layers,"Slow it down
+Trying to print too fast will cause the motors to skip, resulting in 3D printing layer shifting. Try reducing your speed and running test prints.
+
+Pro tip: check your jerk and acceleration settings as well."
+Layers Shifting & Misaligned Layers,"If also warping or curling
+If you’re also experiencing warping or curling, it could be that the HotEnd simply crashed into a section that has curled upwards. This picture however does not show any signs of warping or curling."
+Layers Shifting & Misaligned Layers,"Check filament is free
+A temporary problem with the filament not unspooling cleanly (a knot or tangles on the spool) might have blocked the movement of the (direct drive) extruder causing your 3D printer shifting layers. See our article [How to untangle a tangled or knotted spool]."
+Layers Shifting & Misaligned Layers,"Printer lubrication
+You’ve got mechanical friction on this axis (the X-axis in this picture). Check if your printer moves freely along this axis, clean and lubricate the mechanical parts like smooth rods, lead-screws or rails and check for broken bearings."
+Layers Shifting & Misaligned Layers,"Check belts & pulleys
+Loose belts or not properly tightened pulleys will cause layers to shift as the requirement amount of travel will not be achieved. So, check the belt(s) for the axis affected and if necessary tighten according to the specifications of your printer manufacturer. Also check if all pulleys are properly tightened to the motor shafts for the axis in question. Usually, NEMA motors have a flat side on the motor shaft, it is best to tighten your pulley against this flat side to ensure best grip."
+Layers Shifting & Misaligned Layers,"Pro tip:
+Increase the Vref for this stepper motor to give it a bit more strength"
+Layers Missing or Skipped Layers,"Reduce the Z-axis movement speed in your slicer settings.
+Make sure your Z-axis can travel freely. In some case, if the filament doesn’t unspool smoothly from the reel, Z-axis travel can be blocked or in a direct drive extruder setup the extruder motor might yank the extruder upwards.
+Check your Z-axis, Clean and lubricate your smooth rods, rails, lead-screw etc. and look for broken bearings. If the error occurs exactly on the same layer in repeated prints, there could also be an issue with a bent or misaligned lead screw.
+Pro Tip: check acceleration and jerk settings for the Z-axis.
+Check the exact resolution of your Z-axis (motor steps and properties of the lead-screw) and set layer heights to use full steps. Sometimes, a 0.12 layer prints nicer than a 0.1mm.
+If this is a newly assembled DIY printer kit, look into the micro-stepping behaviour of your stepper drivers. If this is a pre-built machine, contact the manufacturer for hardware support."
+Weak or Under-Extruded Infill,"Reduce extrusion settings
+Most slicers automatically increase the infill 3D printing speed or use a bigger extrusion multiplier/line width than regular outlines. This setting is often proportionally set by applying a multiplier to your general 3D printer settings. If you’re pushing your printer to its limits in speed and extrusion volume, the infill is the most likely place where it starts to fail first. Therefore, either reduce your general extrusion settings, or find the modifier for the infill and reduce that."
+Weak or Under-Extruded Infill,"Increase heat on faster prints
+You may be printing too cold for the desired print speed. Printing faster or at higher extrusion rates requires more heat to melt the proper amount of plastic in time. Increase your temperature in 5°C increment tests until the issue is resolved."
+Weak or Under-Extruded Infill,"Lower layer height
+You’ll experience infill issues if you’re trying to use a layer height that is too high for your nozzle or extruder. Stick to a maximum layer height of 75% of your nozzle size (i.e. 0.3mm for a 0.4mm nozzle)."
+Deformed Infill,"Infill printed too fast
+With most slicers, the infill is printed at the highest print speed specified, while outlines for example are printed slower. So, the first place to notice too high print speeds is often the infill. Lower your print speed gradually to test if this fixes the issue as you might be printing too fast."
+Deformed Infill,"Decrease skip
+You may have set the infill to skip layers. If the infill deforms, decrease the skip amount."
+Deformed Infill,"Increase infill extrusion width
+Your infill extrusion width may be still be set at a reduced amount (if you were trying to save weight on a previous print). Set it to 100% (or higher) to see if that helps."
+Deformed Infill,"Insert diaphragm
+Some slicers allow a solid diaphragm to be printed every so many layers. This can be used to support subsequent infill layers (and as a by-product, they can increase the rigidity of the structure significantly)."
+Deformed Infill,"Print hotter
+Try increasing the print temperature (in 5°C increments) printing faster requires increasing your print temperature to melt enough plastic in time."
+Deformed Infill,"Tighten belts & pulleys
+Loose belts or pulleys could be responsible for a printer’s inability to perform sharp directional changes at higher speeds, which could result in deformed infill patterns, especially if it consists of sharp angles. Tighten the belts & pulleys to stop this problem."
+Insufficient Retractions,"Use non-stationary retractions in your slicer software
+This is a setting in your slicer software. Standard retracts are happening while the extruder is stopped, which can lead to oozing and additional material being deposited on the model. The idea being using non—stationary retracts is to retract while the nozzle is still moving, which might improve results."
+Insufficient Retractions,"Use a different restart distance
+This is a setting in more advanced slicers. During retraction a configurable length of filament is pulled back from the nozzle before a travel move occurs. After the travel move completed, the same length is then pushed backed into the nozzle before actual printing restarts. Altering the restart distance allows you to influence what happens at the end of the travel move. You can tell your slicer to push back more or less filament than initially has been retracted.
+
+Use longer restart distance in order to make up for material that oozed during the travel move (usually used when you see dents or holes at the restart point). Or use a shorter (or negative) restart distance to push back less filament than initially retracted, which will help with eliminating blobs at the restart point."
+Insufficient Retractions,"Printer cooler
+Stringing at its heart is molten filament oozing out of the nozzle during a fast travel move. The hotter your print temperature, the more likely it is that oozing might occur. So when in doubt try printing cooler, reduce in 5°C increments performing small tests each time."
+Insufficient Retractions,"Try a different spool of filament
+Some filaments are more prone to stringing than others. Not all brands print equally well. This is also true for different filament types. PETG is more likely to string than for example ABS. If you can’t get rid of excessive stringing (after speaking to the manufacturer), try some other filament type or brand."
+Blobs and 3D Printing Zits,"Z-hop
+Z-Hop (lift nozzle before retraction/travel), a very popular feature in most of today’s slicers can encourage blobs right at the retraction point. There’s two ways to go about this: either try increasing your retraction or disable the Z-hop."
+Blobs and 3D Printing Zits,"Z-Scar
+At the point where the layer change happens, a small blob will appear, the so-called Z-scar (or ‘Zipper’). It is not always possible to eliminate the Z-scar entirely by adjusting retraction settings, but modern slicers give you some choices where this Z-scar appears: the default is usually for the Z-scar to appear randomly or where the slicer thinks it would be best to optimise print speed.
+
+Usually you get a way cleaner looking print if you instead pick a specific less noticeable location for the Z-scar yourself. Like in a corner of a print, or at least somewhere in the back. Also choosing a specific location for the Z-scar will prevent the z-scar from splattering 3D printing blobs all over the print and confines them in more or less straight line along the Z-axis."
+Blobs and 3D Printing Zits,"Dents
+3D printer blobs and zits also appear on the surface of your print in random locations if your filament absorbed too much moisture. The steam building up inside the nozzle will make the filament pop at random times which will squirt out additional plastic (then followed by a dent because of lack of filament in the nozzle). Try drying your filament before printing to remove any moisture causing dent. To prevent moisture in the future, ensure you're storing your filament correctly in an air-tight sealed bag with freshly charged desiccant, in a cool dry place. Do not leave filament out for longer than during printing."
+Infill Poking Through Outline,"Use more outlines to stop the infill poking through.
+Tell your slicer to print the outlines before doing the infill.
+As the blobs are usually a result of the retraction, optimising your retraction settings as well as calibrating basic extrusion parameters will help as well.
+Reducing the infill overlap amount in your slicer will also help."
+Scratches on Top Layers,"One approach would be to try and fix the over-extrusion or the warp. See [Over Extrusion] and/or [Warping].
+Another is to use the Z-Hop feature of your slicer. Z-Hop will lift the nozzle up a certain amount before moving across to prevent the scratch.
+Use combing (also known as “avoid crossing outline”). With combing, the nozzle will travel along the outline instead of crossing it and going straight across your print, which will often avoid this issue entirely (though not necessarily in this example)."
+Small Parts & Features Not Printing,"Check your slicer settings for thin wall options.
+Rotate the part so the fine details are on the Z-plane and reduce your layer height if necessary.
+Get a finer nozzle, the finer the nozzle the smaller lines you can print.
+Redesign the part or scale it up so the features are big enough to be printed. There is specialised software out there that will increase wall width without changing overall part dimension, might be worth a look, especially for architectural prints this comes in handy often."
+Lines On The Side Of Your Prints,"Check Z-axis assembly, it may be bent or misaligned.
+There may be lose pulleys, make sure they are tightened.
+Check belt tension of your X & Y axes.
+Friction on the axes may be preventing smooth movement over the print. Clean and lubricate the axes.
+Make sure there are no big variations in temperature during printing. No sudden increase in fans or drop in room temperature/draughts.
+Inconsistent extrusion may cause this issue. See [Under Extrusion] and/or [Over Extrusion].
+Lower your printing speed and check acceleration and jerk settings, these may also be too high."
+Temperature Variations,"Try some PID Tuning. If you’re not familiar with PID tuning, YouTube has tons of tutorials on how to do PID tuning on various printers.
+Check the heater cartridge leads for any breaks or lose connectors.
+Check the Thermocouple leads for any breaks or lose connectors.
+On E3D HotEnds, check the black Molex connector for the thermistor, or better yet, remove that connector and crimp/solder the leads instead."
+Vibrations and 3D Printing Ringing,"You may be printing too fast. Artefacts of vibration or ringing/ghosting are often related to printing too fast.
+It could be an indication that your acceleration and jerk settings are too high. The higher the mass of your extruder, the more susceptible it is to these artefacts when printing at higher speeds. This is where Bowden extruders shine.
+Loose belts or pulleys could be the cause so be sure to check they are tightened.
+Backlash in your motion system. Backlash (or in other words too much play) is a mechanical problem with your printer hardware. Might mean something has come loose or is worn. Check with your printer manufacturer for possible fixes.
+Worn or dirty bearings or rods that cause friction in the travel. Ensure they are clean or replace if needed.
+The so called “stick slip” issue with linear bushings. The stick/slip effect is a common issue when using polymer or metal bushings instead of ball bearings, usually caused by poor alignment, bent or rough rods or similar mechanical problems. Stick/Slip is like a stutter during the acceleration phase of what should be a smooth linear motion.
+Vibration might be reduced by installing NEMA dampeners.
+Artefacts introduced by the stepper drivers can be reduced by installing smoothers or different stepper drivers."
+Circles Are Not Round,"Check axes, belt tension, pulleys and gears are tight, clean and in position.
+Check different steps/mm in the slicer for on of the axes has not accidently been input incorrectly.
+Be careful when entering new settings via the printer’s manual front-panel controls, we’ve all experienced ‘finger-trouble’ before and hit something on the controls we shouldn’t. Double check everything was input as it should’ve been.
+Check the Z-scar to prevent blobs altering the shape. See [Blobs and 3D Printing Zits]."
+Leaning Prints,"Slipping pulleys or gears or belts can cause the print to slightly shift and start leaning. Tighten pulleys/gears/belts to stop this happening.
+Friction along the axis might cause it to lose steps. Just a few steps here and there, enough to make it lean. Clean and lubricate the axis so there’s no friction.
+A misaligned printer frame or bed will result in a leaning print as well, check everything is as straight as possible."
+Poor Surface Quality Above Supports,"Adjust support gap
+Normal support structures for single extruder systems are designed in such a way so they are easy to break away from the finished print. Therefore, they intentionally leave a small gap between the support structure and the actual model that sits on top of it. The height of this gap is usually adjustable in your slicer settings. Less gap means better quality but also harder to remove.
+
+If the gap is too close, breaking off the supports will damage the surface of your actual object."
+Poor Surface Quality Above Supports,"Dual extrusion
+If you find yourself suffering from this problem a lot, you might want to think about getting a dual extrusion system. Printing with water soluble rigid.ink PVA or the easy to remove rigid.ink Break-Away will allow you to transition seamlessly from support to the actual model completely eliminating the gap and the problems it entails."
+Poor Surface Quality Above Supports,"Increase support density
+Support structures are usually not printed solid, but rather, like infill, use a percentage, often called support density. Increase this density to improve the surface quality of the part printed above the support."
+Poor Surface Quality Above Supports,"Rotate Model
+Often, the object to be printed can be rotated on the bed so less supports are needed. Or you could split the model in half using a plane cut tool and avoid the supports entirely"
+Poor Surface Quality Above Supports,"Custom Supports
+If you designed the model yourself, read up on design guidelines to reduce the need for supports in the first place, or how to place your own supports at design time."
+Failing Supports,"Avoid isolated towers, place your supports in bigger groups.
+Reduce printing speed for support.
+Use higher support density and if your slicer supports it - a different support pattern.
+If your slicer supports it, have a brim or a solid bottom layer added to your supports."
+Poor Bridging,"Advanced slicer software detects when bridging is required and will allow you to apply different settings for the bridge.
+
+Increase extrusion multiplier for the bridge.
+Try different speeds, slower is usually better, but results may vary so experimenting is key.
+Increase your fan speed for bridges. We want the material to harden quickly without drooping. May not be suitable for all materials, check with the manufacturer/seller.
+Make sure your slicer is actually using bridging mode. If you’re using Simplify3D, make sure bridging of outlines is enabled.
+More advanced bridging options like direction of the lines that make up your bridge or increasing the start and end zone of a bridge can help as well.
+Better than trying to optimise bridging performance is trying to avoid bridges to begin with. If possible, reorient your part on the build plate so less bridges are required or add supports to your bridges. With supports under your bridge, it won’t be able to droop as much."
+Stringy & Droopy Overhangs,"Reduce your printing temperature in 5°C increments until your overhangs are smooth.
+Increasing cooling (fan speed). If you’re already at 100%, you can ensure all chamber doors are open or add external fans to beside the printer. May not be suitable for all materials, check with the manufacturer/seller.
+Tell your slicer to print the inner perimeters first before printing the outlines.
+If you design your model yourself, avoid overhangs at an angle greater than 45°.
+If the overhang cannot be avoided, consider using supports to hold them up.
+Check your extrusion settings. Do the basic extrusion calibration of extruder steps/mm and extrusion multiplier."
+Molten/Deformed Prints,"Print cooler
+Printing cooler is the best advice we can give in this instance.
+
+One, if not the most common problem we see in tech support is people printing way too hot. We’re not sure why this is; some presume hotter temperatures will improve flow rate. Sure, there’s a bit of a give here and there especially with thermistors not being the most accurate critters to begin with, but your first check should be - are you exceeding the print temperature recommendation for the filament used? We always suggest starting at the lowest point in the recommended range and work your way up in 5°C increments, if needed.
+
+Check with the filament manufacturer's documentation to make sure. Just because it says “PLA” on the box, it does not mean they will all print the same! There are hundreds, possibly thousands, of different types of PLA produced across the world."
+Molten/Deformed Prints,"Print slower
+Printing slower allows the heat building up in the printed object to dissipate before the next pass of the nozzle over the same area of the print."
+Molten/Deformed Prints,"Check / increase fans
+Make sure your fans are working. You can try to switch to fans that are pushing more air or add more fans. Sometimes, using a desk fan as a workaround can help you until a more streamlined solution is found."
+Molten/Deformed Prints,"Cooler ambient
+The ambient temperature is too high. If your printer is enclosed, open all doors, side panels or top covers to keep the ambient temperature down. Even the best fans are inefficient if all they’re doing is moving hot air around."
+Burnt Stuff Dripping On Your Print,"PETG especially tends to gather on your nozzle, accumulate during the print and eventually drip. This (and its sometimes-excessive adhesion to certain build plate surfaces) is why we recommend not squishing your first layer when printing with PETG.
+When printing Wood particle filled filament the polymer binding agents (cellulose resin and/or viscose blended with PLA) tends to drip from your HotEnd in a honey like consistency when printing to hot. Or after it sat in a heated nozzle for a while. Print colder and at a constant speed."
+"
+Popping Noises Coming From Your Nozzle","Dry filament
+You’re trying to print moist filament. Some filaments attract and absorb moisture from the air at very high rates. When trying to print such filament, the moisture will turn into vapor and give small popping noises. Dry your filament before use, especially Nylon."
+"
+Popping Noises Coming From Your Nozzle","Retraction settings
+Turn down your retraction settings. You’re HotEnd might be sucking in air, even though this is usually more of a whistle than a pop."
+"
+Popping Noises Coming From Your Nozzle","Are you sure it is popping from the nozzle and not clicking from the extruder motor? If it is clicking, see [Filament not extruding properly]. If it is indeed a popping nozzle, here are some pointers:"
+Clicking Motors,"There is too much friction when the motor tries to move. Clean, lubricate smooth rods, lead-screws and check bearings.
+Something may be blocking the movement of the axis in question. Check alignment and anything that could prevent the movement.
+You’re trying to operate your motors at too high speeds (including acceleration/jerk settings), lower and try again.
+Insufficient current may be being supplied to them (check Vref on the stepper driver for this axis).
+The motor may have overheated, allow to cool and see if it happens again."

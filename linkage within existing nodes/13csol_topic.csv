@@ -1,0 +1,106 @@
+﻿csol,T,,
+"Calibrate the extruder steps required to extrude the requested amount of filament.
+Check your extrusion multiplier in your slicer software to ensure proper amount of filament is extruded.
+Check that you selected the proper filament size (1.75mm/2.85mm/3.00mm) in your slicer.
+Ensure filament can be transported properly (i.e. filament unspools freely from the spool, no excess friction in the filament path).
+Ensure nozzle isn’t blocked or partially blocked. This is a very common cause of under-extrusion or uneven extrusion. See [Clogged Nozzle].",Clogged Nozzle,,
+"Make sure your filament can unspool freely from the reel.
+Check the filament path for any blockages or areas of strong friction.
+Verify the filament diameter is consistent. Especially very cheap filaments suffer from fluctuations in filament diameter. Too thin and there isn’t enough filament fed into the HotEnd, too thick and there might be too much friction to push through the extruder and the related filament path.
+Check the extrusion settings in your slicer, namely filament diameter, extrusion multiplier.
+Check proper print temperature and speed. Try printing hotter and slower.
+Also see [filament not feeding properly].
+If you printer is constantly under extruding, as in: it is not pushing enough plastic, it is best to recalibrate the steps/mm value of your extruder to ensure your extruder delivers the proper amount of filament requested. Once the steps per mm are set correctly, the next step to a proper calibration is to set your extrusion multiplier (also called feed rate) properly. Both steps/mm as well as extrusion multipliers are filament dependent and might even change over time.
+
+Or it could simply be a matter of you having changed the extrusion multiplier for a recent print and forgot to reset it in your slicer. Also, very often the root cause for constant under-extrusion is a partially clogged nozzle. Cleaning out your nozzle would be a good start. Also check [filament not feeding properly].",Filament Not Feeding Properly,,
+"You’ve come back to find your 3D printer not printing anymore. This along with coming back to find a ‘birdsnest’ are the two most cliche versions of failed 3D prints. For some reason or another, your 3D printer stops extruding mid print:
+
+Filament has stripped or is blocked in the extruder. See [Clogged Nozzle]
+Filament is kinked, snapped or ran out. The filament has twisted or you got a knot on the reel. See our article How to untangle a tangled spool
+Filament diameter isn’t consistent. Especially very cheap filaments suffer from fluctuations in filament diameter. Too thin and there isn’t enough filament fed into the HotEnd, to thick and there might be too much friction to push it in through the extruder and the related filament path.
+You’re trying to print a part with too aggressive retraction 3D printing settings or excessive amount of retractions in a short period of time. Check your 3D printer retraction settings and lower total amount of retractions occurring and/or reduce retraction distance. Sometimes loosening the feeder gear idler pressure onto the filament can help.
+Overheated stepper drivers. A lot of tinkerers like to increase the Vref of their stepper drivers, often needlessly. This could lead to overheated steppers. Also, when printing high temperature filaments in an enclosed or heated build chamber steppers tend to get considerably hotter.
+Nozzle clogged mid print. This again can have a lot of different causes. See [Clogged Nozzle]
+If it happens very early in the print, it might be too much back pressure because the nozzle is too close to the bed. See [Nozzle too close].
+In general: Try printing hotter or slower. But do not exceed the maximum print temperature of the filament, as it might start to deteriorate in your nozzle and clog. Very common error is to boil rigid ink PLA by exceeding the maximum print temperature.
+Check for warping. Warped areas are closer to the nozzle increasing back pressure. See [Warping]
+Monitor nozzle temperature while printing, check for high drops in print temperature.
+Keep your nozzle clean, especially after switching between different filament types.
+When using particle filled filaments, consider using a bigger nozzle.
+Flexible filament got stuck. Flexible filaments are difficult to print with most extruders out there, as they tend to escape the intended filament path and simply get stuck. Try printing way slower, try printing hotter (within the recommended range) and maybe even consider upgrading to a different extruder design specialised in printing flexible filaments.
+Also see [Filament not feeding properly].",Clogged Nozzle,,
+"You’ve come back to find your 3D printer not printing anymore. This along with coming back to find a ‘birdsnest’ are the two most cliche versions of failed 3D prints. For some reason or another, your 3D printer stops extruding mid print:
+
+Filament has stripped or is blocked in the extruder. See [Clogged Nozzle]
+Filament is kinked, snapped or ran out. The filament has twisted or you got a knot on the reel. See our article How to untangle a tangled spool
+Filament diameter isn’t consistent. Especially very cheap filaments suffer from fluctuations in filament diameter. Too thin and there isn’t enough filament fed into the HotEnd, to thick and there might be too much friction to push it in through the extruder and the related filament path.
+You’re trying to print a part with too aggressive retraction 3D printing settings or excessive amount of retractions in a short period of time. Check your 3D printer retraction settings and lower total amount of retractions occurring and/or reduce retraction distance. Sometimes loosening the feeder gear idler pressure onto the filament can help.
+Overheated stepper drivers. A lot of tinkerers like to increase the Vref of their stepper drivers, often needlessly. This could lead to overheated steppers. Also, when printing high temperature filaments in an enclosed or heated build chamber steppers tend to get considerably hotter.
+Nozzle clogged mid print. This again can have a lot of different causes. See [Clogged Nozzle]
+If it happens very early in the print, it might be too much back pressure because the nozzle is too close to the bed. See [Nozzle too close].
+In general: Try printing hotter or slower. But do not exceed the maximum print temperature of the filament, as it might start to deteriorate in your nozzle and clog. Very common error is to boil rigid ink PLA by exceeding the maximum print temperature.
+Check for warping. Warped areas are closer to the nozzle increasing back pressure. See [Warping]
+Monitor nozzle temperature while printing, check for high drops in print temperature.
+Keep your nozzle clean, especially after switching between different filament types.
+When using particle filled filaments, consider using a bigger nozzle.
+Flexible filament got stuck. Flexible filaments are difficult to print with most extruders out there, as they tend to escape the intended filament path and simply get stuck. Try printing way slower, try printing hotter (within the recommended range) and maybe even consider upgrading to a different extruder design specialised in printing flexible filaments.
+Also see [Filament not feeding properly].",Warping,,
+"You’ve come back to find your 3D printer not printing anymore. This along with coming back to find a ‘birdsnest’ are the two most cliche versions of failed 3D prints. For some reason or another, your 3D printer stops extruding mid print:
+
+Filament has stripped or is blocked in the extruder. See [Clogged Nozzle]
+Filament is kinked, snapped or ran out. The filament has twisted or you got a knot on the reel. See our article How to untangle a tangled spool
+Filament diameter isn’t consistent. Especially very cheap filaments suffer from fluctuations in filament diameter. Too thin and there isn’t enough filament fed into the HotEnd, to thick and there might be too much friction to push it in through the extruder and the related filament path.
+You’re trying to print a part with too aggressive retraction 3D printing settings or excessive amount of retractions in a short period of time. Check your 3D printer retraction settings and lower total amount of retractions occurring and/or reduce retraction distance. Sometimes loosening the feeder gear idler pressure onto the filament can help.
+Overheated stepper drivers. A lot of tinkerers like to increase the Vref of their stepper drivers, often needlessly. This could lead to overheated steppers. Also, when printing high temperature filaments in an enclosed or heated build chamber steppers tend to get considerably hotter.
+Nozzle clogged mid print. This again can have a lot of different causes. See [Clogged Nozzle]
+If it happens very early in the print, it might be too much back pressure because the nozzle is too close to the bed. See [Nozzle too close].
+In general: Try printing hotter or slower. But do not exceed the maximum print temperature of the filament, as it might start to deteriorate in your nozzle and clog. Very common error is to boil rigid ink PLA by exceeding the maximum print temperature.
+Check for warping. Warped areas are closer to the nozzle increasing back pressure. See [Warping]
+Monitor nozzle temperature while printing, check for high drops in print temperature.
+Keep your nozzle clean, especially after switching between different filament types.
+When using particle filled filaments, consider using a bigger nozzle.
+Flexible filament got stuck. Flexible filaments are difficult to print with most extruders out there, as they tend to escape the intended filament path and simply get stuck. Try printing way slower, try printing hotter (within the recommended range) and maybe even consider upgrading to a different extruder design specialised in printing flexible filaments.
+Also see [Filament not feeding properly].",Filament Not Feeding Properly,,
+"Under extrusion at the beginning of a print is common and to a point to be considered normal. It can take a bit to get the flow of filament going, this is where using a skirt if no brim is required comes in handy.
+
+Consider using a skirt as this will show how consistently the material is being laid down before you waste filament on the printed object itself.
+Modify your start code in your slicer to add some extra priming. While you’re checking the codes, make sure you don’t have an excessive retract in your end code.
+Often, not extruding properly at the beginning of a print is a result of the nozzle being too close to the bed or issues mentioned in the sections above.
+Check print temperature, you might be printing too cold.
+Also see [filament not feeding properly].",Filament Not Feeding Properly,,
+See [Clogged Nozzle].,Clogged Nozzle,,
+See [Nozzle to close to the bed] and/or [Warping].,Warping,,
+"3D printer pillowing occurs when trying to print a solid layer over a coarse infill grid. Depending on your infill percentage and your layer height, it may take a lot of layers to fully close the top surface over infill to produce a nice, smooth surface. Figure at least 1mm of combined layers for your top layer as a rule of thumb. So, if you’re printing with a layer height of 0.2mm use at least 5 top layers to play it safe. Other ways to reduce 3D printing pillowing are:
+
+Print colder or increase fan speeds. Better cooling improves bridging performance, and that’s basically what we’re doing when printing over infill.
+Use a higher infill percentage. More infill means smaller gaps, which are easier to cover.
+Another possible cause for gaps in your top layer is under-extrusion . See [Under-extrusion].",Inconsistent Extrusion: How To Fix Under Extrusion,,
+"These 3D printer errors happen where a horizontal surface meets an inclined one. The top layer(s) looks like the printer could not be bothered to print all the way to the edge. Its causes are similar in nature to pillowing, but it can be more annoying to nail the exact cause when everything else is looking great!
+
+There are a lot of possible causes of this, here’s a list of problem and solutions:
+
+Under-extrusion can cause holes and gaps. Increase the extrusion multiplier/feed rate, also see [Under-extrusion].
+Not enough top layers - increase the top layers count so you are printing at least 1mm thick.
+Printing too hot - print at a lower temperature so the plastic sets in position faster.
+Printing too fast - slow down the print speed. This allows the extruded plastic to cool more before the next pass of the nozzle. If kept too warm, the layer will peel back from where it was printed.
+Not enough cooling - if at all possible, increase cooling during the printing of these parts of the object. Always check this is suitable for the material you’re using with the manufacturer.
+Too little infill - increasing the infill percentage will help. Also look at the minimum infill length in your slicer and reduce this to allow smaller runs of infill to be printed at the edges of an object instead of being ignored.
+The infill outline overlap is too small - all slicers can set how much the infill overlaps the outlines/perimeters of the object being printed. This setting makes sure they go all the way to the edge and fuse together and so help support the layers above. Try increasing this and note the result (too much and you will likely see the infill pattern poking through the object’s visible walls and other such surfaces).
+Not enough outlines/perimeters - these also have a support role to fill, so increase these if at all possible.
+Too much retraction - causes there to be gaps in positions where retractions take place, so reduce this.",Inconsistent Extrusion: How To Fix Under Extrusion,,
+"If this happens on your first layer, chances are your nozzle to bed distance is not set properly. Your nozzle is probably too far away from the bed. See chapter [First Layer Issues]. If it happens later in the print:
+
+This could be a result of printing too fast, try printing slower.
+It could be a sign of (temporary) under extrusion. See [ Under-extrusion].
+Another possibility is wrong extrusion settings in your slicer. Check what was dialled in is correct for your printer and print.
+Increase your extrusion multiplier Simplify3D.
+Increase extrusion width.
+Increase overlap settings.",First Layer Issues,,
+"If this happens on your first layer, chances are your nozzle to bed distance is not set properly. Your nozzle is probably too far away from the bed. See chapter [First Layer Issues]. If it happens later in the print:
+
+This could be a result of printing too fast, try printing slower.
+It could be a sign of (temporary) under extrusion. See [ Under-extrusion].
+Another possibility is wrong extrusion settings in your slicer. Check what was dialled in is correct for your printer and print.
+Increase your extrusion multiplier Simplify3D.
+Increase extrusion width.
+Increase overlap settings.",Inconsistent Extrusion: How To Fix Under Extrusion,,
