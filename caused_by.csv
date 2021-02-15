@@ -1,0 +1,14 @@
+﻿subject,relation,object
+First Layer Issues,caused_by,Nozzle too close to the bed
+First Layer Issues,caused_by,Nozzle too far away from the print bed
+First Layer Issues,caused_by,Print Not Sticking
+Print Not Sticking To The Bed,caused_by,Platform not level
+Print Not Sticking To The Bed,caused_by,Platform is warped
+Print Not Sticking To The Bed,caused_by,Your bed is not clean
+Print Not Sticking To The Bed,caused_by,Nozzle too close to the bed
+Print Not Sticking To The Bed,caused_by,Nozzle too far away from the print bed
+Print Not Sticking To The Bed,caused_by,Print First layer too fast
+Print Not Sticking To The Bed,caused_by,Wrong extrusion settings
+Print Not Sticking To The Bed,caused_by,Print temperature for first layer
+Print Not Sticking To The Bed,caused_by,Bed temperature for first layer
+Print Not Sticking To The Bed,caused_by,Part cooling fan settings

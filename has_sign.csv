@@ -1,0 +1,42 @@
+﻿subject,relation,object
+Nozzle too close to the bed,has_sign,Printed line is thinner than desired.
+Nozzle too close to the bed,has_sign,Excess filament is squished upwards at the edges of the current printing line creating a rough surface and wavy patterns.
+Nozzle too close to the bed,has_sign,Filament is getting torn off the bed when the next neighbouring line is printed.
+Nozzle too close to the bed,has_sign,Finished prints are hard to remove from the print bed.
+Nozzle too far away from the print bed,has_sign,"When looking at the bottom of your printed object, you can clearly make out individual lines with a noticeable gap between each line."
+Nozzle too far away from the print bed,has_sign,"During printing the first layer, the individual lines are not touching each other."
+Nozzle too far away from the print bed,has_sign,There’s small gaps where the lines of the infill are not touching the outlines of the wall.
+Nozzle too far away from the print bed,has_sign,"The shape of the extruding line is very round. With the proper distance, extruded line is slightly squished, pancake shaped."
+Nozzle too far away from the print bed,has_sign,Individual printed lines are barely sticking to the build plate.
+Nozzle too far away from the print bed,has_sign,Parts are warping off the build plate or become loose during the prints.
+Print Not Sticking,has_sign,"Your print is lifting off the bed, such as warping, or returning to your printer with a birds nest."
+Platform not level,has_sign,Nozzle too close to the bed
+Platform not level,has_sign,Nozzle too far away from the print bed
+Nozzle too close to the bed,has_sign,"The left side of your nozzle is too close and the right side it is fine or even too high up, your bed is most likely at an angle – not level with the nozzle. Same goes for front and back and of course this can happen in both axis at the same time."
+Nozzle too far away from the print bed,has_sign,"The left side of your nozzle is too close and the right side it is fine or even too high up, your bed is most likely at an angle – not level with the nozzle. Same goes for front and back and of course this can happen in both axis at the same time."
+Platform is warped,has_sign,Printed line is thinner than desired.
+Platform is warped,has_sign,Excess filament is squished upwards at the edges of the current printing line creating a rough surface and wavy patterns.
+Platform is warped,has_sign,Filament is getting torn off the bed when the next neighbouring line is printed.
+Platform is warped,has_sign,Finished prints are hard to remove from the print bed.
+Platform is warped,has_sign,"When looking at the bottom of your printed object, you can clearly make out individual lines with a noticeable gap between each line."
+Platform is warped,has_sign,"During printing the first layer, the individual lines are not touching each other."
+Platform is warped,has_sign,There’s small gaps where the lines of the infill are not touching the outlines of the wall.
+Platform is warped,has_sign,"The shape of the extruding line is very round. With the proper distance, extruded line is slightly squished, pancake shaped."
+Platform is warped,has_sign,Individual printed lines are barely sticking to the build plate.
+Platform is warped,has_sign,Parts are warping off the build plate or become loose during the prints.
+Your bed is not clean,has_sign,"You see debris from a previous print, dust, gunk, spots, etc"
+Your bed is not clean,has_sign,"You see lumps, build-up or an uneven coat of your favourite bed adhesive."
+Your bed is not clean,has_sign,You see some dents in the otherwise smooth bottom surface of a finished print.
+Print First layer too fast,has_sign,The extruder can’t keep up with pushing filament through at this speed and you see [Under Extrusion]
+Wrong extrusion settings,has_sign,Under extrusion
+Wrong extrusion settings,has_sign,Over extrusion
+Wrong extrusion settings,has_sign,Infill leaving gaps
+Wrong extrusion settings,has_sign,walls turn out too thin
+Wrong extrusion settings,has_sign,layers not thick enough (not squished)
+Print temperature for first layer,has_sign,prints not sticking / warping
+Print temperature for first layer,has_sign,rough corners
+Print temperature for first layer,has_sign,curling or sloppy overhangs
+Bed temperature for first layer,has_sign,prints not sticking / warping
+Bed temperature for first layer,has_sign,Elephant foot
+Bed temperature for first layer,has_sign,curling close to the bed
+Part cooling fan settings,has_sign,your part cooling fan is spinning while printing the first layer you need to look at your fan settings.
