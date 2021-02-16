@@ -1,0 +1,42 @@
+﻿content,name
+Printed line is thinner than desired.,Sign1
+Excess filament is squished upwards at the edges of the current printing line creating a rough surface and wavy patterns.,Sign2
+Filament is getting torn off the bed when the next neighbouring line is printed.,Sign3
+Finished prints are hard to remove from the print bed.,Sign4
+"When looking at the bottom of your printed object, you can clearly make out individual lines with a noticeable gap between each line.",Sign5
+"During printing the first layer, the individual lines are not touching each other.",Sign6
+There’s small gaps where the lines of the infill are not touching the outlines of the wall.,Sign7
+"The shape of the extruding line is very round. With the proper distance, extruded line is slightly squished, pancake shaped.",Sign8
+Individual printed lines are barely sticking to the build plate.,Sign9
+Parts are warping off the build plate or become loose during the prints.,Sign10
+"Your print is lifting off the bed, such as warping, or returning to your printer with a birds nest.",Sign11
+Nozzle too close to the bed,Sign12
+Nozzle too far away from the print bed,Sign13
+"The left side of your nozzle is too close and the right side it is fine or even too high up, your bed is most likely at an angle – not level with the nozzle. Same goes for front and back and of course this can happen in both axis at the same time.",Sign14
+"The left side of your nozzle is too close and the right side it is fine or even too high up, your bed is most likely at an angle – not level with the nozzle. Same goes for front and back and of course this can happen in both axis at the same time.",Sign15
+Printed line is thinner than desired.,Sign16
+Excess filament is squished upwards at the edges of the current printing line creating a rough surface and wavy patterns.,Sign17
+Filament is getting torn off the bed when the next neighbouring line is printed.,Sign18
+Finished prints are hard to remove from the print bed.,Sign19
+"When looking at the bottom of your printed object, you can clearly make out individual lines with a noticeable gap between each line.",Sign20
+"During printing the first layer, the individual lines are not touching each other.",Sign21
+There’s small gaps where the lines of the infill are not touching the outlines of the wall.,Sign22
+"The shape of the extruding line is very round. With the proper distance, extruded line is slightly squished, pancake shaped.",Sign23
+Individual printed lines are barely sticking to the build plate.,Sign24
+Parts are warping off the build plate or become loose during the prints.,Sign25
+"You see debris from a previous print, dust, gunk, spots, etc",Sign26
+"You see lumps, build-up or an uneven coat of your favourite bed adhesive.",Sign27
+You see some dents in the otherwise smooth bottom surface of a finished print.,Sign28
+The extruder can’t keep up with pushing filament through at this speed and you see [Under Extrusion],Sign29
+Under extrusion,Sign30
+Over extrusion,Sign31
+Infill leaving gaps,Sign32
+walls turn out too thin,Sign33
+layers not thick enough (not squished),Sign34
+prints not sticking / warping,Sign35
+rough corners,Sign36
+curling or sloppy overhangs,Sign37
+prints not sticking / warping,Sign38
+Elephant foot,Sign39
+curling close to the bed,Sign40
+your part cooling fan is spinning while printing the first layer you need to look at your fan settings.,Sign41
