@@ -1,0 +1,13 @@
+﻿content,name
+Nozzle too close to the bed,Error1
+Nozzle too far away from the print bed,Error2
+Print Not Sticking,Error3
+lack of adhesion between layers,Error4
+Platform not level,Error5
+Platform is warped,Error6
+Your bed is not clean,Error7
+Print First layer too fast,Error8
+Wrong extrusion settings,Error9
+Print temperature for first layer,Error10
+Bed temperature for first layer,Error11
+Part cooling fan settings,Error12
