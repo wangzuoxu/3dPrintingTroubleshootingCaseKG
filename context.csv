@@ -1,0 +1,30 @@
+﻿content,name
+Printed line is thinner than desired.,Context1
+Excess filament is squished upwards at the edges of the current printing line creating a rough surface and wavy patterns.,Context2
+Filament is getting torn off the bed when the next neighbouring line is printed.,Context3
+Finished prints are hard to remove from the print bed.,Context4
+"When looking at the bottom of your printed object, you can clearly make out individual lines with a noticeable gap between each line.",Context5
+"During printing the first layer, the individual lines are not touching each other.",Context6
+There’s small gaps where the lines of the infill are not touching the outlines of the wall.,Context7
+"The shape of the extruding line is very round. With the proper distance, extruded line is slightly squished, pancake shaped.",Context8
+Individual printed lines are barely sticking to the build plate.,Context9
+Parts are warping off the build plate or become loose during the prints.,Context10
+"Your print is lifting off the bed, such as warping, or returning to your printer with a birds nest.",Context11
+Nozzle too close to the bed,Context12
+Nozzle too far away from the print bed,Context13
+"The left side of your nozzle is too close and the right side it is fine or even too high up, your bed is most likely at an angle – not level with the nozzle. Same goes for front and back and of course this can happen in both axis at the same time.",Context14
+"You see debris from a previous print, dust, gunk, spots, etc",Context15
+"You see lumps, build-up or an uneven coat of your favourite bed adhesive.",Context16
+You see some dents in the otherwise smooth bottom surface of a finished print.,Context17
+The extruder can’t keep up with pushing filament through at this speed and you see [Under Extrusion],Context18
+Under extrusion,Context19
+Over extrusion,Context20
+Infill leaving gaps,Context21
+walls turn out too thin,Context22
+layers not thick enough (not squished),Context23
+prints not sticking / warping,Context24
+rough corners,Context25
+curling or sloppy overhangs,Context26
+Elephant foot,Context27
+curling close to the bed,Context28
+your part cooling fan is spinning while printing the first layer you need to look at your fan settings.,Context29
