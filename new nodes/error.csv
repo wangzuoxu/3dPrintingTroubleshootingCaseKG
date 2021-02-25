@@ -1,0 +1,55 @@
+﻿content,name
+Nozzle too close to the bed,Error1
+Nozzle too far away from the print bed,Error2
+Print Not Sticking,Error3
+Platform not level,Error4
+Platform is warped,Error5
+Clean your bed,Error6
+First layer too fast,Error7
+Check extrusion settings to ensure proper amount of plastic is extruded,Error8
+Print temperature for first layer,Error9
+Bed temperature first layer,Error10
+Part cooling fan settings,Error11
+Use build plate adhesion helpers,Error12
+Bed Temperature,Error13
+Bed adhesion,Error14
+Release agent,Error15
+Extrusion multiplier,Error16
+Freezing,Error17
+Under extrusion in general,Error18
+3D printer not extruding mid-print,Error19
+Under extrusion at the beginning of a print,Error20
+Under extrusion after retraction,Error21
+Extruder motor is clicking,Error22
+Bowden tube issues,Error23
+If the extruder isn’t clicking,Error24
+Motor is wildly turning back and forth even with no filament loaded,Error25
+Inconsistent diameter,Error26
+Filament slipping,Error27
+Moisture absorbtion,Error28
+Stale filament,Error29
+Brittle filament,Error30
+Steam coming out of your nozzle,Error31
+Smoke coming out of your nozzle,Error32
+Prevent a clogged extruder,Error33
+Unblock a clogged nozzle,Error34
+In the top layer / pillowing,Error35
+Holes and gaps in floor corners,Error36
+Between infill and outlines,Error37
+Gaps between thin walls,Error38
+Design considerations,Error39
+First layer,Error40
+Steps / mm settings,Error41
+Printer frame,Error42
+Dry filament,Error43
+Retraction settings,Error44
+Deformed filament or filament diameter too thick,Error45
+"Filament not unspooling from the spool, kinked, knotted or twisted on the spool",Error46
+Too much friction in filament path (especially common with worn or dirty Bowden tubes),Error47
+Trying to extrude too much material for the nozzle size,Error48
+Partial (or full) clog in the nozzle or HotEnd,Error49
+The nozzle being too close to the bed (bed levelling is off) or too close to the previously printed layer (warping),Error50
+Trying to print too cold,Error51
+Trying to print too fast,Error52
+Idler Tension,Error53
+Too many retractions,Error54
