@@ -1,0 +1,37 @@
+﻿content,name
+3D printer version,P_1
+axes,P_2
+belt,P_3
+belts,P_4
+Bowden tube,P_5
+cable,P_6
+calipers/micrometer screw gauge,P_7
+extruder,P_8
+feeder gear,P_9
+feeders,P_10
+filament,P_11
+filament filter,P_12
+first layer thickness,P_13
+FLOSS (a high-performance cleaning filament),P_14
+freezer,P_15
+gear,P_16
+HotEnd,P_17
+idler pressure spring,P_18
+idler tension adjustment,P_19
+levelling screws,P_20
+Mylar (metallic) resealable bags,P_21
+nozzle,P_22
+part cooling fan,P_23
+pins in the connector,P_24
+PLA filament,P_25
+print bed,P_26
+print speed settings,P_27
+PTFE coupler,P_28
+PTFE liner,P_29
+pulley,P_30
+pulleys,P_31
+PVA glue stick or vinyl-based hairspray coating,P_32
+sopropyl alcohol/isopropanol ,P_33
+spool,P_34
+thermister,P_35
+Z-axis assembly,P_36
