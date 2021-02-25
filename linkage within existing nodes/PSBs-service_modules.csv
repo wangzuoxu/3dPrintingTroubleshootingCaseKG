@@ -1,0 +1,29 @@
+﻿solution,service_module
+"Lower the bed temperature. Make sure you’re within the heated bed temperature range advertised by the manufacturer. The highest point in the range should never exceed 10°C below the glass transition temperature (rigid.ink Tg are available in the downloadable datasheets in the settings tab on product pages).
+Increase the nozzle to bed distance slightly. If you’re already at the lower end of the heated bed temperature range, you can try increasing the nozzle to bed distance slightly.",bed temperature setting recommendation
+"Lower the bed temperature. Make sure you’re within the heated bed temperature range advertised by the manufacturer. The highest point in the range should never exceed 10°C below the glass transition temperature (rigid.ink Tg are available in the downloadable datasheets in the settings tab on product pages).
+Set your printing temperature lower. The cooler you can print, the quicker the printed filament will cool, preventing layer crushing and caving.
+You can also try increasing the cooling fan speed if not already at 100%. Do check with the manufacturer this is suitable for the material you’re using.",bed temperature setting recommendation
+"Custom Supports
+If you designed the model yourself, read up on design guidelines to reduce the need for supports in the first place, or how to place your own supports at design time.",customer supports
+"Almost all slicers out there will allow you to set a different print temperature for your first/initial layer. Use this feature to adjust bed adhesion without it affecting the rest of your print.
+
+Printing colder will decrease adhesion. Printing hotter (to a point) will increase adhesion. But do not exceed the maximum recommended print temperature for the filament you’re using to avoid the filament deteriorating in the HotEnd, which might lead to clogs. Print as cool as possible while maintaining proper adhesion is best.",nozzle temperature setting recommendation
+"Look up the glass transition temperature of the material you’re printing. Ensure your bed temperature is at least around 10°C below the glass transition temperature. If your bed is far below the glass transition temperature and you’re having trouble with your print not sticking, increase your bed temperature in 5°C increments until the issue is resolved (staying below the GT temp).
+
+For rigid.ink PLA for example, do not exceed 50°C. More is not better. If your bed is too hot, you will increase warping forces and the risk of prints warping or even detaching during the print is increased instead of prevented – and you’ll invite other problems later on in the prints, like Elephant foot or caved in walls.",print bed temperature setting recommendation
+"Usually you can work around warped build plates by printing a very thick first layer (but do not exceed maximum layer height = 75% nozzle size. i.e. 0.3mm for a 0.4mm nozzle). If all else fails, try printing with a raft. Also, with a warped build plate, leveling your bed in such a way that your nozzle to bed distance fits in a smaller area will allow you to work reliably with at least part of a warped build plate.
+
+Or in other words, when dealing with a warped bed do not try to level your bed at the 4 outermost corners, but pick a smaller area in the center of the build plate and try to level it as best as possible there. Idea behind this is, most of the prints seldom require the whole bed, so make a smaller area work well.",first layer thickness settings recommendation
+"3D printer pillowing occurs when trying to print a solid layer over a coarse infill grid. Depending on your infill percentage and your layer height, it may take a lot of layers to fully close the top surface over infill to produce a nice, smooth surface. Figure at least 1mm of combined layers for your top layer as a rule of thumb. So, if you’re printing with a layer height of 0.2mm use at least 5 top layers to play it safe. Other ways to reduce 3D printing pillowing are:
+
+Print colder or increase fan speeds. Better cooling improves bridging performance, and that’s basically what we’re doing when printing over infill.
+Use a higher infill percentage. More infill means smaller gaps, which are easier to cover.
+Another possible cause for gaps in your top layer is under-extrusion . See [Under-extrusion].",infill percentage setting recommendation
+"Retraction settings
+Turn down your retraction settings. You’re HotEnd might be sucking in air, even though this is usually more of a whistle than a pop.",Retraction settings recommendation
+"If it’s too late and moisture has affected the filament, try drying the filament or replace the spool.
+
+To prevent moisture store your filament dry, this is why we at rigid.ink provide special Mylar (metallic) resealable bags with each order. Maybe build a dry box for storage or even to keep the filament dry while printing sensitive materials like Nylons or PVA, with those materials, a few hours on an especially humid day is all it takes.",filament recommendation
+"Increase retraction speed
+Increase the retraction speed. Maximum speed depends entirely on your extruder, so it is hard to come up with a valid recommendation, when in doubt try up to 40mm/s. Check with your printer manufacturer.",retraction speed setting recommendation
